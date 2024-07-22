@@ -31,7 +31,7 @@ function handlePassing(e){
   return (
     <nav onMouseOver={handleSubMenu} className='bg-red-600 text-white'>
         <section className='mx-auto max-w-5xl p-3 flex justify-between items-center'>
-            <p className='font-semibold'><span className='font-serif  font-medium text-4xl'>Cars</span>.co.za</p>
+            <p className='font-semibold cursor-pointer'><span className='font-serif  font-medium text-4xl'>Cars</span>.co.za</p>
             <div className="flex space-x-6 text-base">
                 {subLinks.map((eachPage,index)=>{
                     return <p key={index}  onMouseOver={handlePassing} className="p-2  hover:bg-opacity-20 show cursor-pointer hover:bg-black rounded-md">{eachPage.page}</p>
