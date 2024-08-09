@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* Set box-sizing to border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.image{
+    background-color: rgba(0,0,0,0.2);    
+}
