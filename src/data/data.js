@@ -2,28 +2,28 @@
 
 const subLinks=[
     {
-        page:"Buy Car",
+        page:"Buy Wine",
         links:[
-            {label:"New Car Search"},
-            {label:"Used Cars"},
-            {label:"Commercial Cars"},
-            {label:"New Cars Specs"},
-            {label:"Compare New Cars"},
-            {label:"Car Alerts"}
+            {label:"New Wine Search"},
+            {label:"Old wine"},
+            {label:"Commercial Wine"},
+            {label:"New Wine Specs"},
+            {label:"Compare New Wine"},
+            {label:"Wine Alerts"}
         ]
     },
     {
-        page:"Sell Cars",
+        page:"Sell Wine",
         links:[
-            {label:"Sell Car to Dealers"},
-            {label:"Sell Car Privately"},
+            {label:"Sell Wine to Dealers"},
+            {label:"Sell Wine Privately"},
         ]
     },
     {
         page:"News & Reviews",
         links:[
             {label:"Motoring New"},
-            {label:"Car Reviews"},
+            {label:"Wine Reviews"},
             {label:"Vidoes"},
             {label:"Opinion"},
             {label:"Reports"},
@@ -35,15 +35,15 @@ const subLinks=[
     {
         page:"Services & Tools",
         links:[
-            {label:"Car Insurance"},
-            {label:"Car Finance Calculator"},
-            {label:"Car Finance"},
-            {label:"Car Affordability"},]
+            {label:"Wine Insurance"},
+            {label:"Wine Finance Calculator"},
+            {label:"Wine Finance"},
+            {label:"Wine Affordability"},]
     },
     {
-        page:"Car Dealer",
+        page:"Wine Dealer",
         links:[
-            {label:"Car dealer Search"},
+            {label:"Wine dealer Search"},
             {label:"Motor Groups"},
             {label:"Dealer Advertising"},
             {label:"HDP Empowerment"},]
